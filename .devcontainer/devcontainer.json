@@ -3,5 +3,18 @@
   "features": {
     "ghcr.io/devcontainers/features/powershell:1": {},
       "ghcr.io/devcontainers/features/azure-cli:1": {}
-  }
+},
+"customizations": {
+	"vscode": {
+		"extensions": [
+			"hashicorp.terraform",
+			"adam-bender.commit-message-editor",
+			"ms-vscode.powershell",
+			"wayou.vscode-todo-highlight",
+			"yzhang.markdown-all-in-one",
+			"DavidAnson.vscode-markdownlint",
+			"redhat.vscode-yaml"
+		]
+	}
+}
 }
